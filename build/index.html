@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Calendar</title>
+</head>
+<body class="bg-white flex justify-center items-center min-h-screen">
+    <div class="flex flex-row items-start">
+        <div class="bg-gray-800 text-[#181028] p-8 space-y-6 shadow-lg max-w-md md:max-w-lg">
+            <div id="calendarContainer">
+
+            </div>
+            <div class="flex flex-row space-x-4">
+                <div class="arrow-backward cursor-pointer">
+                    <span class="material-symbols-outlined  text-[#c6c5c5]">
+                    arrow_back_ios
+                    </span>
+                </div>
+                <div id="monthNavigation" class="flex space-x-4"></div>
+                <div class="arrow-forward cursor-pointer">
+                    <span class="material-symbols-outlined  text-[#c6c5c5]">
+                    arrow_forward_ios
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <div>
+            <div class="flex flex-col">
+                <div
+                    class="bg-[#febe7e] h-18 w-full text-[#181028] px-12 py-5 justify-center shadow-lg max-w-md md:max-w-lg items-center">
+                    <p class="uppercase font-bold text-l text-center ">events of the month</p>
+                </div>
+                <div class="bg-[#ed7263] flex flex-col ">
+                    <div class="flex flex-row h-16 items-center justify-center border-[#eb6862] border-b-2">
+                        <div class=" w-8 text-[#feecbc]"><span class="material-symbols-outlined px-3">
+                                restaurant
+                                </span></div>
+                        <div class="px-5 w-60">
+                            <p class="uppercase text-sm text-[#feecbc] ">dinner with dad</p>
+                            <p class="capitalize text-xs">Wed 3 20:00</p>
+                        </div>
+                        <div class="w-8">
+                            <span class="material-symbols-outlined">
+                                    edit
+                                    </span>
+                        </div>
+                        <div class="w-8"><span class="material-symbols-outlined">
+                                delete
+                                </span></div>
+                    </div>
+                </div>
+                <div class="bg-[#ed7263] flex flex-col ">
+                    <div class="flex flex-row h-16 items-center justify-center border-[#eb6862] border-b-2">
+                        <div class=" w-8 text-[#feecbc]"><span class="material-symbols-outlined px-3">
+                                shopping_cart
+                                </span></div>
+                        <div class="px-5 w-60">
+                            <p class="uppercase text-sm text-[#feecbc]">pay phone bills</p>
+                            <p class="capitalize text-xs">Sat 13 12:00</p>
+                        </div>
+                        <div class="w-8">
+                            <span class="material-symbols-outlined">
+                                            edit
+                                            </span>
+                        </div>
+                        <div class="w-8"><span class="material-symbols-outlined">
+                                        delete
+                                        </span></div>
+                    </div>
+                </div>
+                <div class="bg-[#ed7263] flex flex-col ">
+                    <div class="flex flex-row h-16 items-center justify-center border-[#eb6862] border-b-2">
+                        <div class=" w-8 text-[#feecbc]"><span class="material-symbols-outlined px-3">
+                favorite
+                </span></div>
+                        <div class="px-5 w-60">
+                            <p class="uppercase text-sm text-[#feecbc]">special day :)</p>
+                            <p class="capitalize text-xs">Sun 14 16:00</p>
+                        </div>
+                        <div class="w-8">
+                            <span class="material-symbols-outlined">
+                                            edit
+                                            </span>
+                        </div>
+                        <div class="w-8"><span class="material-symbols-outlined">
+                                        delete
+                                        </span></div>
+                    </div>
+                </div>
+                <div class="bg-[#ed7263] flex flex-col ">
+                    <div class="flex flex-row h-16 items-center justify-center border-[#eb6862] border-b-2">
+                        <div class=" w-8 text-[#feecbc]"><span class="material-symbols-outlined px-3">
+                                groups
+                                </span></div>
+                        <div class="px-5 w-60">
+                            <p class="uppercase text-sm text-[#feecbc]">meeting with john</p>
+                            <p class="capitalize text-xs">Thur 25 10:00</p>
+                        </div>
+                        <div class="w-8">
+                            <span class="material-symbols-outlined">
+                                            edit
+                                            </span>
+                        </div>
+                        <div class="w-8"><span class="material-symbols-outlined">
+                                        delete
+                                        </span></div>
+                    </div>
+                </div>
+                <div class=" bg-[#ed7263] flex flex-col items-center justify-end h-40">
+                    <button class="inline-block align-bottom  bg-gray-800 rounded-none text-white px-5 py-3 text-sm mb-5">+ Add event</button>
+                </div>
+
+            </div>
+        </div>
+   
+    </div>
+
+       
+  
+    <script src="index.js" defer></script>
+</body>
+</html>
